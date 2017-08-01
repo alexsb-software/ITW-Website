@@ -45,15 +45,28 @@ jQuery(document).ready(function ($) {
             return false;
         });
     });
+
+    $('.galleryImages').hide();
+
+    get_images_by_year("16");
+    // get_images_by_year("15");
+    get_images_by_year("14");
+    get_images_by_year("13");
+    get_images_by_year("12");
+    get_images_by_year("11");
+    get_images_by_year("10");
+    get_images_by_year("09");
+    get_images_by_year("08");
 });
 
 function get_images_by_year(year) {
     var folder = "images/gallery/" + year + "/";
-    
+
     $.ajax({
         url: folder,
         success: function (data) {
-            $(data).find("td > a").each(function (element) {
+            // should be find("td > a") [server hack]
+            $(data).find("li > a").each(function (element) {
                 var filename = $(this).attr("href");
                 if (filename.match(/\.(jpe?g|JPE?G|png|PNG|gif)$/)) {
                     var filepath = folder + filename,
@@ -73,15 +86,3 @@ function get_images_by_year(year) {
         }
     });
 }
-
-$(document).ready(function (e) {
-    get_images_by_year("16");
-    get_images_by_year("15");
-    get_images_by_year("14");
-    get_images_by_year("13");
-    get_images_by_year("12");
-    get_images_by_year("11");
-    get_images_by_year("10");
-    get_images_by_year("09");
-    get_images_by_year("08");
-});

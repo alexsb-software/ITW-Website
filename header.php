@@ -12,14 +12,14 @@
 <link rel="stylesheet" href="css/prettyphoto/style/prettyPhoto.css" type="text/css" />
 
 <!-- Scripts -->
-<script src="js/vendor/jquery.min.js"></script>
-<script src="js/vendor/jquery.dropotron.min.js"></script>
-<script src="js/vendor/config.js"></script>
-<script src="js/vendor/skel.min.js"></script>
-<script src="js/vendor/skel-panels.min.js"></script>
-<script src="js/vendor/owl.carousel.js"></script>
-<script src="js/vendor/prettyPhoto.js"></script>
-<script src="js/vendor/jquery.isotope.min.js"></script>
+<script src="js/vendor/jquery.min.js" type="text/javascript"></script>
+<script src="js/vendor/jquery.dropotron.min.js" type="text/javascript"></script>
+<script src="js/vendor/config.js" type="text/javascript"></script>
+<script src="js/vendor/skel.min.js" type="text/javascript"></script>
+<script src="js/vendor/skel-panels.min.js" type="text/javascript"></script>
+<script src="js/vendor/owl.carousel.js" type="text/javascript"></script>
+<script src="js/vendor/prettyPhoto.js" type="text/javascript"></script>
+<script src="js/vendor/jquery.isotope.min.js" type="text/javascript"></script>
 
 <noscript>
     <link rel="stylesheet" href="css/skel-noscript.css" />

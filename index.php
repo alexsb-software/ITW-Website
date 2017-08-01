@@ -211,7 +211,7 @@
                                 <!-- 2016 -->
                                 <div class="3u">
                                     <section class="box">
-                                        <div class="image image-full"><img src="images/posters/2017.jpg" alt="" /></div>
+                                        <div class="image image-full"><img src="images/posters/2016.jpg" height="375" width="678" alt="" /></div>
                                         <header>
                                             <h3>2016</h3>
                                         </header>
