@@ -6,7 +6,7 @@ jQuery(document).ready(function ($) {
         $('.loadGallery').hide();
         var $container = $('.galleryImages');
         $container.isotope({
-            filter: '.2017',
+            filter: '.2016',
             itemSelector: '.item',
             masonry: {
                 columnWidth: 0,
